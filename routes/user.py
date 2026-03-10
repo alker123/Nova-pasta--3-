@@ -9,7 +9,7 @@ def check_authentication():
         return redirect('/auth/')
     return None
 
-@user_bp.route('/operador')
+@user_bp.route('/professor')
 def operador():
     auth_check = check_authentication()
     if auth_check:
