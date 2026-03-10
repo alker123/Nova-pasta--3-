@@ -8,3 +8,4 @@ MarkupSafe==2.0.1
 Werkzeug==2.0.1
 firebase-admin==5.0.0
 python-dotenv==0.19.2
+setuptools
