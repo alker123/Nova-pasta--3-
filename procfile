@@ -1,1 +1,2 @@
 web: python app.py
+web: pip install setuptools && gunicorn app:app
